@@ -1,0 +1,55 @@
+// User
+
+[
+	{
+		"userName": "herbskee79",
+		"email": "hmsneed@gmail.com"
+	},
+	{
+		"userName": "CoolLama79",
+		"email": "toddskee@gmail.com"
+	},
+	{
+		"userName": "spiritialfood77",
+		"email": "shill@gmail.com"
+	},
+	{
+		"userName": "TechLord777",
+		"email": "acidman@gmail.com"
+	}
+],
+
+
+// Thought
+
+[
+	{
+		"thoughtText": "Tonight I'm going to see Redman and Method.  I have extra tickets.  Hit me up for the freeski weski",
+		"userName": "herbskee79",
+		"userId": "64d28c3e047612ac3b24bed4"
+	},
+	{
+		"thoughtText": "It's sooo freaking hot. I mean the water in my pool was even hot!",
+		"userName": "CoolLama79",
+		"userId": "64d28c3e047612ac3b24bed4"
+	},
+	{
+		"thoughtText": "Morning meditation is by far the best thing you can do for your mental health in 2023",
+		"userName": "spiritialfood77",
+		"userId": "64d28c3e047612ac3b24bed4"
+	},
+	{
+		"thoughtText": "If history is right, we should embrace AI. ",
+		"userName": "TechLord777",
+		"userId": "64d28c3e047612ac3b24bed4"
+	}
+],
+
+// Reaction
+
+{
+	"reactionBody": "Red and Meth!!!  Freeski Weski!!!  Hook a brother up!!!!",
+	"userName": "CoolLama79"
+}
+
+
