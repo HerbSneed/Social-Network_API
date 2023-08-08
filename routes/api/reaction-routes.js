@@ -4,10 +4,14 @@ const {
  removeThoughtReaction,
 } = require('../../controllers/ReactionController');
 
-// /api/thoughts/:thought_id
+// LOCALHOST:3001/API/THOUGHTS/:THOUGHTID/REACTIONS
 router
- .route('/reactions/:thoughtId')
- .post(addThoughtReaction)
+ .route('/:thoughtId/reactions')
+ .post(addThoughtReaction);
+ 
+// LOCALHOST:3001/API/THOUGHTS/:THOUGHTID/REACTIONS/:REACTIONID
+router
+ .route('/:thoughtId/reactions/:reactionId')
  .delete(removeThoughtReaction);
 
 

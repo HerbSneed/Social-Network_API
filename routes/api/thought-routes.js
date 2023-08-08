@@ -7,15 +7,16 @@ const {
  deleteThought,
 } = require('../../controllers/ThoughtsController');
 
-// /api/thoughts
-router.route('/').get(getThoughts).post(createThought);
+// LOCALHOST:3001/API/THOUGHTS
+router.route('/')
+.get(getThoughts)
+.post(createThought);
 
-// /api/thoughts/:thought_id
+// LOCALHOST:3001/API/THOUGHTS/:THOUGHTID
 router
  .route('/:thoughtId')
  .get(getSingleThought)
  .put(updateThought)
  .delete(deleteThought);
-
 
 module.exports = router;
