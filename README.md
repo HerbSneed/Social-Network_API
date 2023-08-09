@@ -44,4 +44,5 @@ GitHub
 https://github.com/HerbSneed/Social-Network_API
 
 Video Walkthrough
+https://youtu.be/RTm5XPGmzI8
 

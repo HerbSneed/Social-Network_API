@@ -48,7 +48,7 @@ module.exports = {
     try {
       const thought = await Thoughts.findOneAndUpdate(
         { _id: req.params.thoughtId },
-        { $set: req.body.thoughtText },
+        { $set: { thoughtText: req.body.thoughtText } },
         { new: true }
       );
       if (!thought) {
